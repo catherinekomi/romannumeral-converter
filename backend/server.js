@@ -21,4 +21,6 @@ app.get('/romannumeral', (req, res) => {
   res.json({ input: query, output: result });
 });
 
+export { app };
+
 app.listen(PORT, () => console.log(`Server running on localhost:${PORT}`));
