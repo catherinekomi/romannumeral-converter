@@ -1,5 +1,5 @@
-````md
-### Roman Numeral Converter
+
+## Roman Numeral Converter 
 
 A web service and UI that converts numbers (1-3999) to Roman numerals using a Node.js API and a React frontend.
 
@@ -12,7 +12,7 @@ cd backend
 npm install
 npm start
 ```
-````
+
 
 API available at: `http://localhost:8080/romannumeral?query=1987`
 
@@ -48,38 +48,5 @@ romannumeral-converter/
 Backend: `express`, `cors`, `jest`  
 Frontend: `react`, `@adobe/react-spectrum`, `react-testing-library`
 
-## API Usage
-
-Convert a number:
-
-```sh
-GET /romannumeral?query=1987
-```
-
-Response:
-
-```json
-{
-  "input": "1987",
-  "output": "MCMLXXXVII"
-}
-```
-
-Invalid input:
-
-```json
-{
-  "error": "Invalid number. Enter an integer between 1 and 3999."
-}
-```
-
 ## Testing
 
-```sh
-cd backend
-npm test
-```
-
-```
-
-```
