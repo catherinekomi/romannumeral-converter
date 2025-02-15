@@ -45,7 +45,7 @@ romannumeral-converter/
 
 ## Dependencies
 
-Backend: `express`, `cors`, `jest`  
+Backend: `express`, `cors`, `vitest`  
 Frontend: `react`, `@adobe/react-spectrum`, `react-testing-library`
 
 ## Testing
