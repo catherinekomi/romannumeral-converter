@@ -1,5 +1,6 @@
+## Roman Numeral Converter
 
-## Roman Numeral Converter 
+## Extension 1 and 2
 
 A web service and UI that converts numbers (1-3999) to Roman numerals using a Node.js API and a React frontend.
 
@@ -12,7 +13,6 @@ cd backend
 npm install
 npm start
 ```
-
 
 API available at: `http://localhost:8080/romannumeral?query=1987`
 
@@ -51,3 +51,18 @@ Frontend: `react`, `@adobe/react-spectrum`, `react-testing-library`
 
 ## Testing
 
+## Docker Setup
+
+## Extension 3
+
+This project includes a **Dockerized backend**.
+Docker container ensures the application runs consistently across different environments.
+
+### **Build the Docker Image**
+
+Run the following command inside the `backend/` folder:
+
+```sh
+docker build -t roman-numeral-api .
+
+```
